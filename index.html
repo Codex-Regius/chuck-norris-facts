@@ -22,9 +22,8 @@
       <p>Reload for another joke!</p>
 
       <div class="content" id="chuck-norris">
-        
       </div>
-      
+      <button id='changeJoke'>Change Joke Button</button>
     </div>
 
   </section>
@@ -54,6 +53,8 @@
     }
 
 fetchChuckNorris();
+
+    document.getElementById('changeJoke').addEventListener('click', fetchChuckNorris)
   </script>
 </body>
 
